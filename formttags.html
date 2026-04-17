@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form tags</title>
+</head>
+<body>
+    <!--form tags-->
+    <!--names-->
+     <h1 align="center">form tags example</h1><hr>
+    <div  style="background-color: rebeccapurple; border: 5px; height: 500; width: 750;">   
+    <label for="first-name">F-name:</label>
+    <input type="text" id="first-name" placeholder="John" required name="username" maxlength="10">&nbsp;&nbsp;
+        <label for="middle-name">M-name:</label>
+    <input type="text" id="middle-name" placeholder="Bikram"  name="username">&nbsp;&nbsp;
+        <label for="last-name">L-name:</label>
+    <input type="text" id="last-name" placeholder="Shah" required name="username"><br>
+    <!--Gender-->
+    <label for="Gender">Gender:</label>&nbsp;&nbsp;
+    <input type="radio" id="male" name="Gender" value="male" required>
+    <label for="male">male</label>
+        <input type="radio" id="female" name="Gender" value="female" required>
+    <label for="female">female</label><br>
+    <!--password-->
+    <label for="password">password:</label>
+    <input type="password" id="password" name="password" required>&nbsp;&nbsp;
+    <!--Email-->
+    <label for="useremail">Email:</label>
+    <input type="email" name="email" id="useremail" maxlength="15" minlength="8" required><br>
+    <!--checkbox-->
+    <label for="checkbox">Hobbies:</label><br>
+    <input type="checkbox" id="dancing" name="hobbies">
+    <label for="dancing">dancing</label>
+        <input type="checkbox" id="singing" name="hobbies">
+    <label for="singing">singing</label>    
+    <input type="checkbox" id="swimming" name="hobbies">
+    <label for="dancing">swimming </label> 
+     <input type="checkbox" id="writing" name="hobbies">
+    <label for="dancing">writing</label>    
+    <input type="checkbox" id="reading" name="hobbies">
+    <label for="dancing">reading</label><br><br>
+      <!--range-->
+     volume:
+      <input type="range" name="volume" id="age-range" min="0" max="100" value="75">
+      <label for="age">Age:</label>
+      <!--quantity-->
+      <input type="number" id="age" name="userage" min="10" max="100"><br>
+      <input type="file" name="myfile" id="file" accept=".png, .pdf, image/" multiple size="2*1024"><br>
+      <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFYqoKTu_o3Zns2yExbst2Co84Gpc2Q1RJbA&s" height="50"><br>
+      describe about your self: <br>
+      <!--textarea-->
+    <textarea name="about" id="message" rows="10" cols="50" maxlength="100"></textarea><br>
+    <input type="submit" value="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset" value="reset">
+</div>
+ 
+</body>
+</html>

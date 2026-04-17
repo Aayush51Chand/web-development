@@ -1,0 +1,25 @@
+#parent{
+line-height: 15px;
+text-transform: uppercase;
+direction: ltr;
+}
+#child{
+line-height: 120px;
+text-transform: lowercase;
+direction: rtl;
+}
+.parent1{
+text-indent: 110px;
+}
+.child1{
+
+}
+h2
+{
+    text-align: center;
+    text-decoration: underline blue dashed;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    word-spacing: 6px;
+    overflow: hidden;
+}
